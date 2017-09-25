@@ -1,0 +1,26 @@
+/* CSS for BoxXBlock */
+
+.box_block {
+ padding: 15px 25px 15px 25px;
+ }
+.Blue {
+	border-left: 5px solid #060694;
+	background-color: #f2f2ff;
+}
+.Yellow {
+	border-left: 5px solid #ffc982;
+	background-color: #fffaf2;
+}
+.Red {
+	border-left: 5px solid #940606;
+	background-color: #fff2f2;
+}
+.Green {
+	border-left: 5px solid #069406;
+	background-color: #f2fff2;
+}
+.Grey {
+	border-left: 5px solid #575757;
+	background-color: #fdfdfd;
+  
+}
