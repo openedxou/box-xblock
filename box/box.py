@@ -5,7 +5,7 @@ import pkg_resources
 from xblock.core import XBlock
 from xblock.fields import Scope, String
 from xblock.fragment import Fragment
-
+from xblockutils.studio_editable import StudioEditableXBlockMixin
 
 class BoxXBlock(XBlock):
     display_name = String(display_name="Display name", default='Box', scope=Scope.settings)
