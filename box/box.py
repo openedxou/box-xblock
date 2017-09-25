@@ -7,7 +7,7 @@ from xblock.fields import Scope, String
 from xblock.fragment import Fragment
 from xblockutils.studio_editable import StudioEditableXBlockMixin
 
-class BoxXBlock(XBlock):
+class BoxXBlock(StudioEditableXBlockMixin, XBlock):
     display_name = String(display_name="Display name", default='Box', scope=Scope.settings)
     boxcolour = String(display_name="Box Colour", values=('Grey', 'Red', 'Green', 'Blue', 'Yellow'),
         default="Grey", scope=Scope.settings,
